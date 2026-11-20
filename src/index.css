@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+  --color-brand-green: #9fff00;
+  --color-bg-base: #EDEEF5;
+}
+
+body {
+  @apply bg-bg-base text-zinc-900 font-sans antialiased;
+}
+
+html { scroll-behavior: smooth; }
